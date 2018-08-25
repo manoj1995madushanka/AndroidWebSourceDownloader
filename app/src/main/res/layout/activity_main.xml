@@ -8,7 +8,38 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@drawable/dp">
 
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:text="Enter URL"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtURL"
+            android:layout_width="302dp"
+            android:layout_height="47dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="127dp"
+            android:background="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/btnGetsource"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@android:color/holo_green_light"
+            android:text="GET SOURCE"
+            android:textSize="24sp"
+            android:textStyle="bold" />
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
